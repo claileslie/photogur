@@ -1,3 +1,33 @@
 // Place all the styles related to the pictures controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Arial, verdana, sans-serif;
+
+}
+
+// INDEX
+
+.homepage {
+  background-color: black;
+  color: white;
+}
+
+img {
+  max-width: 50%;
+  max-resolution: 50%;
+}
+
+.main_title {
+  position: relative;
+  left: 50%;
+  box: 1px solid grey;
+}
+
+.album {
+  
+}
